@@ -1,5 +1,5 @@
 # Proiectele realizate cursul 1
-Bine ați venit in primul meu portfolio. Eu invăț in colegiul "Iulia Hasdeu" din orașul Cahul, specialitaea Dezvoltatoare aplicațiilor web
+Bine ați venit in primul meu portfolio. Eu invăț in colegiul "Iulia Hasdeu" din orașul Cahul, specialitaea Dezvoltatoare aplicațiilor web.
 In acest depozit (repository) eu voi colecta primele programe, realizate in parcursul primului an de studii
 
 ## Tehnologii utilizate:
