@@ -1,0 +1,71 @@
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace Laborator_3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Laboratorul 3
+            //Problema 1
+            /*
+            int albe, rosii, albastre, total;
+            Console.WriteLine("Dati numarul de globulete albe");
+            albe = int.Parse(Console.ReadLine());
+            rosii = albe + 3;
+            albastre =albe + rosii - 2
+                total = albe + rosii + albastre;
+            Console.WriteLine($"Numarul total de globulete: {total}");
+            Console.WriteLine( );
+            */
+
+            //Problema 2
+            /*
+            int nr1, nr2, nr3, nr4, nr5;
+            Console.WriteLine("Ce numar spune Ion");
+            nr1 = int.Parse(Console.ReadLine());
+            nr2 = nr1 - 2;
+            nr3 = nr1 - 1;
+            nr4 = nr1 + 1;
+            nr5 = nr1 + 2;
+            Console.WriteLine($"numerele vor fi: {nr2} {nr3} {nr1} {nr4} {nr5}");
+            */
+
+            //Problema 3
+            /*
+            int nrmere, nr1copil, nr2copil;
+            Console.WriteLine("introduceti un numar intreg");
+            nrmere = int.Parse(Console.ReadLine());
+            nr1copil = nrmere - 2;
+            nr2copil = nrmere + 1;
+            Console.WriteLine($"primul copil va avea {nr1copil} mere, iar al doilea va avea {nr2copil} mere.");
+            */
+
+            //Problema 4
+            /*
+            int n1, n2, n3;
+            Console.WriteLine("Introduceti trei numere din care vor fi formate 5 cifre");
+            n1=int.Parse(Console.ReadLine());
+            n2 = int.Parse(Console.ReadLine());
+            n3 = int.Parse(Console.ReadLine());
+            Console.Write ($"{n1}{n2}{n3} ");
+            Console.Write($"{n1}{n3}{n2} ");
+            Console.Write($"{n2}{n1}{n3} ");
+            Console.Write($"{n3}{n1}{n2} ");
+            Console.Write($"{n3}{n2}{n1} ");
+            */
+
+            //Problema 5
+
+            int an, luna, zi, ora;
+            Console.WriteLine("Introduceti numarul de ani");
+            an= int.Parse(Console.ReadLine());
+            luna = an * 12;
+            zi = an * 365;
+            ora = zi * 24;
+            Console.WriteLine($"In lune vor fi {luna}, in zile {zi}, iar in ore {ora}");
+
+            Console.ReadKey();
+        }
+    }
+}
