@@ -1,0 +1,74 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Laborator_5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Problema 1//
+            /*
+                Console.WriteLine("introduceti x");
+                double x = double.Parse(Console.ReadLine());
+                double E = 23 * x - x * Math.Sqrt(29) + Math.Pow(2.71, 2);
+                Console.WriteLine($"E={E}");
+            */
+            //Problema 2//
+            /*
+            int n, n1, n2, n3;
+            Console.WriteLine("introduceti un numar intreg alcatuit din 3 cifre: ");
+            n= int.Parse(Console.ReadLine());  
+            if (n >= 100 && n <= 999) 
+            {
+                n1 = n % 10;
+                n2 = (n / 10)%10;
+                n3 = n / 100;
+                Console.WriteLine($"suma = {n1 + n2 + n3}");
+            }
+            else
+            {
+                Console.WriteLine("nu ati respectat conditiile");
+            }
+            */
+
+            //Problema 3//
+            /*
+            Console.Write("Introducetu un numar real. \nN=");
+
+            double N = double.Parse(Console.ReadLine());
+            int Pintreg = (int)N;
+
+            double Pfract = N - Pintreg;
+
+            double rotund = Math.Round(N);
+
+            Console.WriteLine("Partea intreaga = " + Pintreg);
+            Console.WriteLine("Partea fractionara = " + Pfract);
+            Console.WriteLine("Rotunjirea lui N = " + rotund);
+            */
+            //problema 4//
+            /*
+            Console.Write("x1 = ");
+            double x1 = double.Parse(Console.ReadLine());
+            Console.Write("y1 = ");
+            double y1 = double.Parse(Console.ReadLine());
+            Console.Write("x2 = ");
+            double x2 = double.Parse(Console.ReadLine());
+            Console.Write("y2 = ");
+            double y2 = double.Parse(Console.ReadLine());
+
+            double distanta = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+            double x3 = (x1 + x2) / 2;
+            double y3 = (y1 + y2) / 2;
+            Console.WriteLine($"Distanta AB = {distanta:F4}");
+            Console.WriteLine($"Coordonatele mijlocului segmentului AB sunt: x3 = {x3}, y3 = {y3}");
+
+            Console.ReadKey();
+            */
+        }
+    }
+}
