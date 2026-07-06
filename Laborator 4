@@ -1,0 +1,131 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Laborator_4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Laborator 4//
+            //Problema 1//
+            /*
+            Console.Write("Introduceti un numar exact de 2 cifre: ");
+            int n = int.Parse(Console.ReadLine());
+
+            if ((n >= 10 && n <= 99) || (n <= -10 && n >= -99))
+            {
+                n = Math.Abs(n);
+
+                int zeci = n / 10;
+                int unitati = n % 10;
+
+                int produs = zeci * unitati;
+
+                Console.WriteLine($"Produsul cifrelor este: {produs}");
+            }
+            else
+            {
+                Console.WriteLine("Numarul introdus nu are exact 2 cifre");
+            Console.ReadKey();
+            }
+                */
+
+            //Problema 2//
+            /*
+            Console.Write("Introduceti un numar intreg n (n > 10): ");
+            int n = int.Parse(Console.ReadLine());
+
+            if (n > 10)
+            {
+                int ultimacifra = n % 10;
+                int penultimacifra = (n / 10) % 10;
+                int cat = n / 9;
+                int rest = n % 9;
+
+                Console.WriteLine($"Ultima cifra: {ultimacifra}");
+                Console.WriteLine($"Penultima cifra: {penultimacifra}");
+                Console.WriteLine($"Catul impartirii la 9: {cat}");
+                Console.WriteLine($"Restul impartirii la 9: {rest}");
+            }
+            else
+            {
+            Console.WriteLine("Numarul trebuie sa fie mai mare decat 10");
+            Console.ReadKey();
+            }
+            */
+
+            //Problema 3//
+            /*
+            Console.Write("Introduceti n care sa fie mai mic de 100000: ");
+            int n = int.Parse(Console.ReadLine());
+
+            Console.Write("Introduceti d sa fie mai mic decat n si 100000: ");
+            int d = int.Parse(Console.ReadLine());
+
+            // Verificarea condițiilor din enunț
+            if (n >= 100000 || d >= 100000)
+            {
+                Console.WriteLine("Numerele trebuie sa fie mai mici decat 100000!");
+            }
+            else if (d == 0)
+            {
+                Console.WriteLine("Eroare: impartirea la zero nu exista");
+            }
+            else if (n <= d)
+            {
+                Console.WriteLine("Eroare: trebuie ca n > d");
+            }
+            else
+            {
+                // Calcularea câtului și restului
+                int cat = n / d;
+                int rest = n % d;
+
+                // Afișarea rezultatelor
+                Console.WriteLine($"Restul impartirii lui {n} la {d} este: {rest}");
+                Console.WriteLine($"Câtul impartirii lui {n} la {d} este: {cat}");
+                Console.ReadKey();
+                */
+            //Problema 4//
+            /*
+            Console.Write("Introduceti valoarea lui a: ");
+            int a = int.Parse(Console.ReadLine());
+
+            Console.Write("Introduceti valoarea lui b: ");
+            int b = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"\nValorile initiale: a = {a}, b = {b}");
+
+            int memoria = a; 
+            a = b; 
+            b = memoria;
+
+            Console.WriteLine($"Valorile după interschimbare: a = {a}, b = {b}");
+            Console.ReadKey();
+            */
+            //Problema 5//
+            Console.Write("Introduceti valoarea lui a: ");
+            int a = int.Parse(Console.ReadLine());
+
+            Console.Write("Introduceti valoarea lui b: ");
+            int b = int.Parse(Console.ReadLine());
+
+            Console.Write("Introduceti valoarea lui c: ");
+            int c = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"\nValorile initiale: a = {a}, b = {b}, c = {c}");
+
+            int memoria = a; 
+            a = b;
+            b = c; 
+            c = memoria; 
+
+            Console.WriteLine($"Valorile după interschimbare: a = {a}, b = {b}, c = {c}");
+            Console.ReadKey();
+        }
+        }
+    }
